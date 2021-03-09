@@ -2,11 +2,11 @@ import { v4 as uuidv4 } from "uuid";
 function chillHop() {
   return [
     {
-      name: "Beaver Creek",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
-      artist: "Aso, Middle School, Aviino",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
+      name: "Better Days",
+      cover: "https://www.bensound.com/bensound-img/betterdays.jpg",
+      artist: "Benjamin Tissot",
+      audio:
+        "https://instrumentalfx.co/wp-content/upload/11/Elektronomia-Vitality-NCS-Release.mp3",
       color: ["#205950", "#2ab3bf"],
       id: uuidv4(),
       active: true,
@@ -16,7 +16,8 @@ function chillHop() {
       cover:
         "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
       artist: "Aiguille",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9272",
+      audio:
+        "https://instrumentalfx.co/wp-content/upload/11/Jim-Yosef-Arrow-NCS-Release.mp3",
       color: ["#EF8EA9", "#ab417f"],
       id: uuidv4(),
       active: false,

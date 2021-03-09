@@ -8,11 +8,14 @@
 
 .time-control {
   width: 50%;
-  background-color: lightblue;
+  border-radius: 50px;
+  background: #ffffff;
   display: flex;
+  box-shadow: inset 0px -8px 12px #d9d9d9, -1px -4px 4px #ffffff;
+
   input {
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 1rem 0rem;
   }
   p {
     padding: 1rem;
@@ -25,4 +28,5 @@
   align-items: center;
   padding: 1rem;
   width: 50%;
+  box-shadow: 1px 6px 4px #d9d9d9, -1px -4px 4px #ffffff;
 }
