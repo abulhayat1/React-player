@@ -1,8 +1,20 @@
 import React from "react";
 
-const LibrarySong = ({ song }) => {
+const LibrarySong = ({
+  song,
+  songs,
+  setCurrentSong,
+  id,
+  audioRef,
+  setIsPlaying,
+}) => {
+  const songSelectHandler = async () => {
+    await setCurrentSong(song);
+    audioRef.current.play();
+    setIsPlaying(true);
+  };
   return (
-    <div className="library-songs">
+    <div onClick={songSelectHandler} className="library-songs">
       <img src={song.cover} alt={song.name} />
       <div className="song-description">
         <h3>{song.name}</h3>
